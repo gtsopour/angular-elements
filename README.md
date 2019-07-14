@@ -1,12 +1,12 @@
 # Angular Elements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
-
 Angular elements are Angular components packaged as custom elements (also called Web Components), a web standard for defining new HTML elements in a framework-agnostic way.
 
 The @angular/elements package exports a createCustomElement() API that provides a bridge from Angular's component interface and change detection functionality to the built-in DOM API.
 
 [Angular Elements Overview](https://angular.io/guide/elements)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
 ## Development server
 
@@ -50,22 +50,6 @@ import '@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js';
 As the Native Web Component app-demo is just an HTML element at its core, you can set its attributes either by declaring it statically in the template or by calling the native setAttribute method:
 
 `document.querySelector('app-demo').setAttribute('content', 'Set content by querySelector()');` 
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 For any extra questions, please contact me at gtsopour@gmail.com. 
 
